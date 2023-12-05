@@ -4,7 +4,7 @@ body{
     font-family: sans-serif;
 }
 .black-border{
-    height: 85px;
+    height: 100px;
     width: 100%;
      background-color: #000; 
 }
@@ -17,11 +17,12 @@ body{
     max-width: 1500px;
 }
 .first-logo svg{
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     float: left;
-    margin-top: 22px;
+    margin-top: 30px;
     margin-left: 100px;
+    
 }
 .first-logo:hover{
     color: #dadbf1;
@@ -39,10 +40,11 @@ cursor: pointer;
 }
 .header h3{
     color: #fff;
-    margin-top: -55px;
+    margin-top: -65px;
     font-size: 21px;
     font-weight: 600;
 cursor: pointer;
+margin-left: 5px;
 }
 .header h3:hover{
     color: #dadbf1;
@@ -50,7 +52,7 @@ cursor: pointer;
 .header span{
     color: #fff;
      margin-left: 10px;
-    margin-top: -55px;
+    margin-top: -65px;
     font-size: 23px;
     font-style: normal;
     cursor: pointer;
@@ -60,18 +62,18 @@ cursor: pointer;
 }
 .submit-btn{
      max-width: 1230px;
-     margin-top: -50px; 
+     margin-top: -80px; 
 }
 .btns{
-    max-width: 1250px;
+    max-width: 1350px;
 }
 .btn{
     color: #fff; 
    border: 1px solid #fff;
-   height: 35px;
-   width: 220px;
+   height: 40px;
+   width: 250px;
    border-radius: 10px;
-   font-size: 23px;
+   font-size: 27px;
    cursor: pointer;
    float: right;
    padding: 10px 0px 0px 0px;
@@ -84,15 +86,15 @@ cursor: pointer;
 }
 .sign{
     color: #fff; 
-   height: 35px;
-   width: 115px;
+   height: 40px;
+   width: 130px;
    border-radius: 10px;
-   font-size: 23px;
+   font-size: 27px;
    cursor: pointer;
    float: right;
-   padding: 13px 0px 0px 0px;
+   padding: 10px 0px 0px 0px;
     text-align: center;
-    background-color: blue;
+    background-color: rgb(44, 44, 173);
 }
 .color-height{
     margin-top: 70px;
@@ -110,7 +112,7 @@ cursor: pointer;
     position: relative;
     left: 23%;
     height: 50px;
-    width: 720px;
+    width: 760px;
     border-radius: 5px;
     font-size: 20px;
     padding:  12px;
@@ -131,7 +133,7 @@ cursor: pointer;
    float: right;
    padding: 8px 8px 5px 5px;
     text-align: center;
-    background-color: blue;
+    background-color: rgb(44, 44, 173);;
     margin-top: 200px;
     position: fixed;
     left: 90%;
@@ -408,8 +410,7 @@ cursor: pointer;
             height: 90px;
         }
         .header{
-            margin-top: -10px;
-            
+            margin-top: -10px;   
         }
         .header h3{
             font-size: 18px;
@@ -432,6 +433,7 @@ cursor: pointer;
         .first-logo svg{
             height: 25px;
             margin-left: 10px;
+            margin-top: 13px;
         }
         .color-height{
             margin-top: -24px;
@@ -798,6 +800,7 @@ cursor: pointer;
    }
    .black{
     max-width: 580px;
+    width: 100%;
    }
    .black h1{
     font-size: 29px;
